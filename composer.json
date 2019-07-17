@@ -1,0 +1,42 @@
+{
+    "name": "mixislv/laravel-model-self-cache",
+    "description": "Laravel eloquent models cache helper",
+    "homepage": "https://github.com/mixisLv/laravel-model-self-cache",
+    "keywords":
+    [
+        "cache",
+        "eloquent",
+        "model",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Mikus Rozenbergs",
+            "homepage": "https://mixis.lv"
+        }
+    ],
+    "require": {
+        "php" : "^7.1.3",
+        "illuminate/database": "~5.8.0",
+        "illuminate/support": "~5.8.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "mixisLv\\SelfCache\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "scripts": {
+    },
+    "license": "MIT",
+    "extra": {
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
