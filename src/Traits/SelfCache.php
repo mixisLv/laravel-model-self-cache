@@ -20,6 +20,8 @@ trait SelfCache
     protected static $defaultSelfCacheKeyId = 'id';
 
     /**
+     * Store item for 40 minutes
+     *
      * @var int  can be overridden on the base class (model::$selfCacheKeyExpiration);
      */
     protected static $defaultSelfCacheKeyExpiration = 4000;
